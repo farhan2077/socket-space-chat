@@ -1,18 +1,16 @@
 <br/>
 
-<img height="150px" width="auto" src="space.png"/>
-
-<br/>
+<img height="100px" width="auto" src="space.png"/>
 
 # Space Chat
 
 <strong>Made using [Socket.io](https://socket.io/) & [Nodejs](https://nodejs.org/en/).</strong>
 
-## Prerequisites:
+### Prerequisites:
 
 - [Node.js]() v12.0+
 
-## Installation & setup
+### Installation & setup
 
 1. Download or clone the repository.
 
@@ -38,10 +36,10 @@ npm run start:server
 npm run start:client
 ```
 
-## Contribute
+### Contribute
 
 Any pull requests are welcome.
 
-## License
+### License
 
 [GPL-3.0 License](./LICENSE)
