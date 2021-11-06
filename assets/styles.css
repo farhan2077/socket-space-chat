@@ -1,0 +1,125 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* custom scrollbar  */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 1rem;
+  border: 3px solid var(--black-900);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* css variables */
+:root {
+  --black-900: #1a202c;
+  --blue-600: #67b9e1;
+  --yellow-600: #ffb200;
+}
+
+/* styles */
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: var(--black-900);
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 500px;
+  background-color: var(--black-900);
+  color: white;
+}
+
+#message-view {
+  margin-bottom: 5rem;
+  overflow: auto;
+  display: grid;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+#message-view p {
+  color: black;
+  background-color: var(--blue-600);
+  border: 0.1rem solid var(--blue-600);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+#message-view p:nth-child(2n) {
+  color: black;
+  background-color: var(--yellow-600);
+  border: 0.1rem solid var(--yellow-600);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+#message-form {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1rem;
+  width: 500px;
+  display: flex;
+}
+
+#message-input {
+  all: unset;
+  flex-grow: 1;
+  background-color: var(--black-900);
+  border: 2px solid var(--blue-600);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+#message-button {
+  all: unset;
+  cursor: pointer;
+  background-color: var(--black-900);
+  border: 2px solid var(--yellow-600);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+
+svg {
+  color: var(--yellow-600);
+}
