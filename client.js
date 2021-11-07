@@ -18,11 +18,11 @@ socket.on("chat-message", (data) => {
 });
 
 socket.on("user-connected", (name) => {
-  createMessage(`🔥 ${name} has joined group chat.`);
+  createMessage(`🔥 ${name} has joined Space Chat.`);
 });
 
 socket.on("user-disconnected", (name) => {
-  createMessage(`😢 ${name} has left group chat.`);
+  createMessage(`😢 ${name} has left Space Chat.`);
 });
 
 messageForm.addEventListener("submit", (e) => {
