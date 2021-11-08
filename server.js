@@ -4,7 +4,7 @@ const port = 3000;
 const io = require("socket.io")(port);
 
 // store current users in a session
-const users = {};
+const users = [];
 
 // when connection is made
 io.on("connection", (socket) => {
