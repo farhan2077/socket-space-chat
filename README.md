@@ -1,8 +1,10 @@
+_basic version_
+
 <br/>
 
 <img height="100px" width="auto" src="space.png"/>
 
-# Space Chat
+# Space Chat `v1`
 
 <strong>Made using [Socket.io](https://socket.io/) & [Nodejs](https://nodejs.org/en/).</strong>
 
@@ -41,7 +43,3 @@ npm run start:server
 ```
 npm run start:client
 ```
-
-## License
-
-[GPL-3.0 License](./LICENSE)
