@@ -1,4 +1,5 @@
 const port = 3000;
+// const fs = require("fs");
 
 // start socket server at specified port
 const io = require("socket.io")(port);
@@ -23,6 +24,14 @@ io.on("connection", (socket) => {
       name: users[socket.id],
     });
   });
+
+  // handle send image
+  // socket.on("send-image", (image) => {
+  //   console.info("Received image in socket server");
+
+  //   const buffer = Buffer.from(image, "base64");
+  //   await fs.writeFile("/assets/image", buffer).catch(console.error);
+  // });
 
   // when a user disconnects
   socket.on("disconnect", () => {
