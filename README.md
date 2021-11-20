@@ -6,6 +6,8 @@
 
 <strong>Made using [Socket.io](https://socket.io/) & [Nodejs](https://nodejs.org/en/).</strong>
 
+Checkout `v1-basic` branch to see simple implementation.
+
 ## Prerequisites:
 
 - [Node.js]() v12.0+
