@@ -6,7 +6,7 @@
 
 <strong>Made using [Socket.io](https://socket.io/) & [Nodejs](https://nodejs.org/en/).</strong>
 
-Checkout `v1-basic` branch to see simple implementation.
+_Checkout `v1-basic` branch to see simple implementation._
 
 ## Prerequisites:
 
