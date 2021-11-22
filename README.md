@@ -2,7 +2,7 @@
 
 <img height="100px" width="auto" src="space.png"/>
 
-# Space Chat
+# Space Chat `v2`
 
 <strong>Made using [Socket.io](https://socket.io/) & [Nodejs](https://nodejs.org/en/).</strong>
 
@@ -13,6 +13,8 @@ _Checkout `v1-basic` branch to see simple implementation._
 - [Node.js]() v12.0+
 
 ## Installation & setup
+
+:warning: Using yarn instead of npm is advised.
 
 1. Download or clone the repository
 
@@ -29,19 +31,19 @@ cd socket-space-chat
 3. Install dependecines
 
 ```
-npm install
+yarn
 ```
 
 4. Start server
 
 ```
-npm run start:server
+yarn start:server
 ```
 
 5. Start client
 
 ```
-npm run start:client
+yarn start:client
 ```
 
 ## License
