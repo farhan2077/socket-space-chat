@@ -14,7 +14,7 @@ _Checkout `v1-basic` branch to see simple implementation._
 
 ## Installation & setup
 
-:warning: Using yarn instead of npm is advised.
+_:warning: Using yarn instead of npm is advised._
 
 1. Download or clone the repository
 

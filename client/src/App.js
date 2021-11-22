@@ -32,7 +32,7 @@ const Container = styled.div`
 `;
 
 const TextArea = styled.textarea`
-  width: 98%;
+  width: 97%;
   height: 100px;
   margin-top: 10px;
   padding-left: 10px;
