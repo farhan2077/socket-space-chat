@@ -177,7 +177,7 @@ const App = () => {
       if (message.id === yourID) {
         return (
           <MyRow key={index}>
-            <MyMessage>{message.body}</MyMessage>
+            <MyMessage>{message?.body}</MyMessage>
           </MyRow>
         );
       }
@@ -195,6 +195,7 @@ const App = () => {
       <Container>{messages.map(renderMessages)}</Container>
       <Form onSubmit={sendMessage}>
         <TextArea
+          required
           value={message}
           onChange={handleChange}
           placeholder="Say something..."

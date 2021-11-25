@@ -14,7 +14,7 @@ export default function Image(props) {
   return (
     <img
       style={{
-        width: "250px",
+        width: "200px",
         height: "auto",
         margin: "0 10px",
         border: "1px solid #1A202C",
